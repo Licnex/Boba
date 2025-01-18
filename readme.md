@@ -2,7 +2,7 @@
 
 ### A simple HTML [website](https://licnex.github.io/boba) that shows a biography of what I want to be in grade 10 (I'm in grade 9).
 
-I made this because these are expectations I want to fulfill. This is not farfetched but some helpful feedback for when I do get into 10th grade. 
+I made this because these are expectations I want to fulfill. This is not farfetched but some helpful feedback for when I do get into 10th grade. (zoomout You probably can't see the entire website on 100% zoom try like 50%)
 
 * Have I become what I wanted to become, or have I gotten distracted?
 
