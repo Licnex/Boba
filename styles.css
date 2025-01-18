@@ -7,12 +7,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     max-width: 800px;
     background: #333;
     padding: 20px;
@@ -87,10 +87,10 @@ header h1 {
 
 @keyframes textGlow {
     from {
-        text-shadow: 0 0 0px rgb(30, 255, 0), 0 0 10px rgb(0, 255, 13), 0 0 20px rgb(0, 255, 13), 0 0 30px rgb(9, 255, 0);
+        text-shadow: 0 0 2px rgb(30, 255, 0), 0 0 4px rgb(0, 255, 13), 0 0 6px rgb(0, 255, 13), 0 0 8px rgb(9, 255, 0);
     }
     to {
-        text-shadow: 0 0 10px rgb(0, 255, 21), 0 0 20px rgb(51, 255, 0), 0 0 30px rgb(0, 255, 42), 0 0 40px rgb(0, 255, 13);
+        text-shadow: 0 0 4px rgb(0, 255, 21), 0 0 6px rgb(51, 255, 0), 0 0 8px rgb(0, 255, 42), 0 0 10px rgb(0, 255, 13);
     }
 }
 
@@ -163,4 +163,48 @@ footer {
     margin-top: 20px;
     border-top: 1px solid #555;
     color: #bbb;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    section h3 {
+        font-size: 1em;
+    }
+
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    section h2 {
+        font-size: 1.2em;
+    }
+
+    section h3 {
+        font-size: 0.9em;
+    }
+
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+    }
 }
