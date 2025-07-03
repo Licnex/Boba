@@ -1,15 +1,10 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
-    padding: 20px 0;
+    padding: 20px;
     background-color: #1a1a1a;
     color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
     min-height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 
 .container {
@@ -22,6 +17,7 @@ body {
     text-align: center;
     border-radius: 10px;
     animation: fadeIn 2s ease-in-out;
+    margin: 0 auto;
 }
 
 @keyframes fadeIn {
